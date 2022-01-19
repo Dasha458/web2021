@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="registration" method="post" action="http://httpbin.org/post ">
+        <fieldset>
+            <legend>Форма регистрации</legend>
+
+            <label for=name>ФИО</label>
+            <input id=name name=name type=text required="required">>
+
+            <label for=email> Email</label>
+            <input id=email name=email type=email>
+
+            <label for=tel> Номер телефона</label>
+            <input id=phone name=phone type=tel pattern="\(\d{3,4}\) \d{2,3}-\d{2}-\d{2}">
+            <label for=dateofbirth> Дата рождения</label>
+            <input id=dateofbirth name=dateofbirth type=date>
+        </fieldset>
+        <fieldset>
+            <legend>Параметры доставки</legend>
+
+            <label for="address">Адрес</label>
+            <textarea id="address" name="address" rows="5"></textarea>
+
+            <label for="postcode">Почтовый индекс</label>
+            <input id="postcode" name="postcode" type="text">
+
+        </fieldset>
+        <fieldset>
+            <legend>Предпочитаемый способ получения уведомления</legend>
+
+
+            <label for=emailmessege>По Email</label>
+            <input id=emailmessege name=messege type=radio>
+
+            <label for=phonemessege>По телефону</label>
+            <input id=phonemessege name=messege type=radio>
+
+            <label for=nomessege>Не уведомлять меня</label>
+            <input id=nomessege name=messege type=radio>
+
+        </fieldset>
+        <button type="submit">Отправить данные</button>
+    </form>
+</body>
+
+</html>
+
+</html>

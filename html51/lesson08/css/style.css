@@ -1,0 +1,16 @@
+form#registration {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #1E90FF;
+    border-radius: 5px;
+    padding: 20px;
+    width: 400px;
+    margin: 2px;
+    border: none;
+    margin-bottom: 10px;
+    color: navy;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-shadow: 0 1px 1px #C1F7FF;
+    text-transform: uppercase;
+}
