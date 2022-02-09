@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs bg-danger" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="Settings-tab" data-bs-toggle="tab" data-bs-target="#Settings" type="button" role="tab" aria-controls="Settings" aria-selected="true">Settings</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="Security-tab" data-bs-toggle="tab" data-bs-target="#Security" type="button" role="tab" aria-controls="Security" aria-selected="false">Security</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="MetaSettings-tab" data-bs-toggle="tab" data-bs-target="#MetaSettings" type="button" role="tab" aria-controls="MetaSettings" aria-selected="false">Meta Settings</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="SearchEnglneOptimization-tab" data-bs-toggle="tab" data-bs-target="#SearchEnglneOptimization" type="button" role="tab" aria-controls="SearchEnglneOptimization" aria-selected="false">Search Englne Optimization</button>
+                </li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content  ">
+                <div class="tab-pane active " id="Settings" role="tabpanel" aria-labelledby="Settings-tab">
+                    <fieldset>
+                        <div class="text-white  bg-danger" style="opacity:0.8">Parent Page: <input name="Parent Page:" type="text" placeholder="Root" />
+
+                        </div>
+                        <div class="text-white  bg-danger" style="opacity:0.8"> Page Name: <input name="PageName" type="text" placeholder="Name" /> </div>
+                    </fieldset>
+                </div>
+                <div class="tab-pane" id="Security" role="tabpane2" aria-labelledby="Security-tab">
+                    <p> Roles that can view this page </p>
+                    <p> Roles that can edit this page </p>
+                </div>
+                <div class="tab-pane" id="MetaSettings" role="tabpane3" aria-labelledby="MetaSettings-tab">
+                    <fieldset>
+                        <div>Page Keywords: <input name="Parent Page:" type="text" placeholder="Root" />
+
+                        </div>
+                        <div> Page Name: <input name="PageName" type="text" placeholder="Name" /> </div>
+                    </fieldset>
+                </div>
+                <div class="tab-pane" id="SearchEnglneOptimization" role="tabpane2" aria-labelledby="SearchEnglneOptimization-tab"> Change Frequency </div>
+            </div>
+        </div>
+        <div class="rov">
+            <button class="button btn-warning offset-5" type="button">
+                Save
+            </button>
+            <button class="button btn-warning " type="button">
+                Delete
+            </button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>
