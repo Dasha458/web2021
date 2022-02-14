@@ -1,0 +1,17 @@
+    #d1 {
+        background-color: blue;
+        display: inline-block;
+        width: 400px;
+    }
+    
+    #d2 {
+        background-color: blueviolet;
+        height: 70px;
+    }
+    
+    .brd {
+        border: 1px solid black;
+        height: 250px;
+        width: 490px;
+        display: inline-block;
+    }
