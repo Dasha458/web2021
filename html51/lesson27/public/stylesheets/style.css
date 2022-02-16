@@ -1,0 +1,38 @@
+body {
+  padding: 50px;
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+img {
+  height: 380px;
+}
+
+#main{
+  display: flex;
+}
+section {
+  float: left;
+  width: 80%;
+}
+
+aside{
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+th{
+  text-align: left;
+}
+
+.flag {
+  border: 1px solid black;
+  height: 75px;
+}
